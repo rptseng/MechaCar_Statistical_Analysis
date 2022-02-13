@@ -7,22 +7,16 @@ These are the summary statistics of the multiple linear regression model for fue
 
 ![mpg_lm_summary](https://github.com/rptseng/MechaCar_Statistical_Analysis/blob/main/images/mpg_lm_summary.png)
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-
 The variables that provided a non-random amount of variance based on a significance level of p=0.05 are vehicle length and ground clearance. We can also see that the intercept also has a p-value smaller than 0.05, meaning that it explains a significant amount of variability when all other variables are equal to zero. This may suggest that there are other variables that significantly explain mpg that are not included in the model.
-
-Is the slope of the linear model considered to be zero? Why or why not?
 
 The slope of the model is not zero because the p-value of the model is below the significance level of 0.05. This means we may reject the null hypothesis that the slope of the model is not zero.
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The linear model is strongly predictive of the mpg of MechaCar prototypes because we have an R-squared value of 0.71, which means roughly 71% of the variability in mpg can be explained by the model.
 
 ## Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 Using an R script to calculate the Mean, Median, Variance, and Standard Deviation of PSI values in the Suspension_Coil data set, we will analyze whether the sample meets the variance specifications in total and by individual lots.
 
-(R script here)
+![psi_script.png](https://github.com/rptseng/MechaCar_Statistical_Analysis/blob/main/images/psi_script.png)
 
 ### PSI Variance - All Manufacturing Lots
 At a total level, the variance of the suspension coils is less than 100, therefore the manufacturing data meets the design specifications.
