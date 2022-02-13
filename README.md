@@ -50,12 +50,16 @@ The p-value for Lot3 is 0.04 and we can conclude the PSI is significantly differ
 ## Study Design: MechaCar vs Competition
 For a future direction, we would like to design a study that can demonstrate to a consumer that MechaCar products have a higher highway fuel efficiency rating in miles per gallon(mpg) than its closest competitor, RoboTruck. 
 
-- Hypotheses
+- Hypotheses: 
+
 The null hypothesis is the in highway fuel efficiency (mpg) for MechaCars is the same or lower than the mpg for RoboTrucks.
+
 The alternative hypothesis is the highway fuel efficiency (mpg) for MechaCars is greater than the mpg for RoboTrucks.
 
-- Statistical Test
+- Statistical Test: 
+
 In this scenario we would like to run a paired or two-sample t-test with a one-tailed significance level so we can make the case to consumers that MechaCar is superior to RoboTruck by this metric.
 
-- Data Requirements
+- Data Requirements: 
+
 We would need a data set that can be grouped by Manufacturer (MechaCar or RoboTruck) with values for highway fuel efficiency in miles per gallon (mpg). We would like to have a sample size of at least 20 vehicles in each category to run our test.
