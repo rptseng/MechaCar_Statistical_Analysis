@@ -5,7 +5,7 @@ The objective of this project is to use statistical tests in R on production dat
 
 These are the summary statistics of the multiple linear regression model for fuel efficiency (mpg) factoring in the variables of vehicle length, vehicle weight, spoiler angle, ground clearance, and AWD.
 
-(image goes here)
+![mpg_lm_summary](https://github.com/rptseng/MechaCar_Statistical_Analysis/blob/main/images/mpg_lm_summary.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -26,24 +26,30 @@ Using an R script to calculate the Mean, Median, Variance, and Standard Deviatio
 
 ### PSI Variance - All Manufacturing Lots
 At a total level, the variance of the suspension coils is less than 100, therefore the manufacturing data meets the design specifications.
-(total summary here)
+
+![psi_summary.png](https://github.com/rptseng/MechaCar_Statistical_Analysis/blob/main/images/psi_summary.png)
 
 ### PSI Variance - Each Lot
 Based on the lot_summary dataframe, we can see Lot1 and Lot2 meet the design specification of variance being lower than 100 PSI. Lot3 has a PSI variance of greater than 100 and does not meet the design specification.
-(Lot summary here)
+
+![lot_summary.png](https://github.com/rptseng/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
 
 ### T-Tests on Suspension Coils
 We will now run t-tests on each manufacturing lot to determine whether they show a statistically significant difference (p=0.05) from the population mean of 1500 PSI.
+
 ### Lot 1
-(image here)
+![lot1.png](https://github.com/rptseng/MechaCar_Statistical_Analysis/blob/main/images/lot1.png)
+
 The p-value for Lot1 is 1 and equal to the population mean. There is no significant difference in Lot1.
 
 ### Lot 2
-(image here)
+![lot2.png](https://github.com/rptseng/MechaCar_Statistical_Analysis/blob/main/images/lot2.png)
+
 The p-value for Lot2 is 0.6 and is not significantly different from the population mean.
 
 ### Lot 3
-(image here)
+![lot3.png](https://github.com/rptseng/MechaCar_Statistical_Analysis/blob/main/images/lot3.png)
+
 The p-value for Lot3 is 0.04 and we can conclude the PSI is significantly different from the population mean.
 
 
